@@ -6,17 +6,58 @@
 
 body {
     background-color: #183A4A ;
+    font-size: larger;
 }
 
 #titolo {
     color: white;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.numero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
 }
 
 
-div {
-    height: 50px;
-    width: 50px;
-    color:blue;
+
+
+.fizzbuzz {
+    background-color: #DE5471;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+
+
+}
+
+
+.fizz {
+    background-color: #61D2A4;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+.buzz {
+    background-color: #F9D277;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
 }

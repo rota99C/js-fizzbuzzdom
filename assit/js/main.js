@@ -20,7 +20,7 @@ for (let i = 1; i <= 100; i++) {
     }
 
     else {
-        multipli.innerHTML += "div class=null 'i
+        multipli.innerHTML += i
     }
 
 
