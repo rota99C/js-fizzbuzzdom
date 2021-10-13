@@ -20,7 +20,7 @@ for (let i = 1; i <= 100; i++) {
     }
 
     else {
-        multipli.innerHTML += i
+        multipli.innerHTML += "<div class=numeriNormali>" + i + "</div>"
     }
 
 
